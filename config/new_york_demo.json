@@ -1,0 +1,16 @@
+{
+  "id": "NYS_DEMO",
+  "label": "New York synthetic illustration, not tax advice",
+  "base_currency": "USD",
+  "supported_currencies": ["USD", "EUR"],
+  "allowed_tax_rates": ["0", "0.04", "0.08", "0.08875"],
+  "tax_treatment": "nonrecoverable",
+  "currency_scale": 2,
+  "category_threshold": "0.85",
+  "match_threshold": "0.95",
+  "match_date_days": 5,
+  "fx_rates": {},
+  "tax_notes": "The allowed set is an illustrative review allowlist, NOT a legal rate table. NY state portion is 4%; combined local rates vary. 8.875% is an NYC example only, not the statewide rate. Exemptions, taxability and locality must be determined by the reviewer. Purchases default to nonrecoverable sales tax included in expense; no automatic VAT reclaim. EUR transactions require reviewer-supplied dated FX rates. No filing deadlines asserted.",
+  "sources_checked": "2026-10-23",
+  "sources": ["https://www.tax.ny.gov/bus/st/rates.htm", "https://portal.311.nyc.gov/article/?kanumber=KA-01675", "https://www.tax.ny.gov/pubs_and_bulls/tg_bulletins/st/exemption_certificates_for_sales_tax.htm"]
+}
