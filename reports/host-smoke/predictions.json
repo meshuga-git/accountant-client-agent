@@ -1,0 +1,133 @@
+{
+  "test_type": "two_synthetic_image_host_model_vision_smoke",
+  "client": "cafe",
+  "confidence_note": "Subjective model confidence, not calibrated probabilities or measured accuracy.",
+  "documents": [
+    {
+      "image": "normal.png",
+      "fields": {
+        "vendor": {
+          "value": "Pixel Systems",
+          "page": 1,
+          "evidence": "Vendor: Pixel Systems",
+          "confidence": 0.99,
+          "uncertainty": null
+        },
+        "invoice_number": {
+          "value": "110001",
+          "page": 1,
+          "evidence": "Invoice number: 110001",
+          "confidence": 0.99,
+          "uncertainty": null
+        },
+        "date": {
+          "value": "2025-10-04",
+          "page": 1,
+          "evidence": "Date: 2025-10-04",
+          "confidence": 0.99,
+          "uncertainty": null
+        },
+        "currency": {
+          "value": "USD",
+          "page": 1,
+          "evidence": "Currency: USD",
+          "confidence": 0.99,
+          "uncertainty": null
+        },
+        "net": {
+          "value": "310.87",
+          "page": 1,
+          "evidence": "Net: 310.87",
+          "confidence": 0.99,
+          "uncertainty": null
+        },
+        "tax": {
+          "value": "24.87",
+          "page": 1,
+          "evidence": "Tax: 24.87",
+          "confidence": 0.99,
+          "uncertainty": null
+        },
+        "total": {
+          "value": "335.74",
+          "page": 1,
+          "evidence": "Total: 335.74",
+          "confidence": 0.99,
+          "uncertainty": null
+        }
+      },
+      "category": {
+        "account": "5100",
+        "account_name": "Software subscriptions",
+        "confidence": 0.93,
+        "page": 1,
+        "evidence": "Description: Software monthly purchase",
+        "rationale": "The explicit monthly software purchase best matches Software subscriptions in the supplied cafe COA.",
+        "uncertainty": "Monthly purchase suggests a subscription but does not explicitly state subscription."
+      }
+    },
+    {
+      "image": "degraded.png",
+      "fields": {
+        "vendor": {
+          "value": "Beacon Repair",
+          "page": 1,
+          "evidence": "Vendor: Beacon Repair",
+          "confidence": 0.98,
+          "uncertainty": null
+        },
+        "invoice_number": {
+          "value": "110007",
+          "page": 1,
+          "evidence": "Invoice number: 110007",
+          "confidence": 0.98,
+          "uncertainty": null
+        },
+        "date": {
+          "value": "2025-10-16",
+          "page": 1,
+          "evidence": "Date: 2025-10-16",
+          "confidence": 0.98,
+          "uncertainty": null
+        },
+        "currency": {
+          "value": "USD",
+          "page": 1,
+          "evidence": "Currency: USD",
+          "confidence": 0.98,
+          "uncertainty": null
+        },
+        "net": {
+          "value": "201.71",
+          "page": 1,
+          "evidence": "Net: 201.71",
+          "confidence": 0.98,
+          "uncertainty": null
+        },
+        "tax": {
+          "value": "16.14",
+          "page": 1,
+          "evidence": "Tax: 16.14",
+          "confidence": 0.98,
+          "uncertainty": null
+        },
+        "total": {
+          "value": "217.85",
+          "page": 1,
+          "evidence": "Total: 217.85",
+          "confidence": 0.98,
+          "uncertainty": null
+        }
+      },
+      "category": {
+        "account": null,
+        "account_name": null,
+        "confidence": 0.9,
+        "page": 1,
+        "evidence": "Description: Repairs monthly purchase",
+        "rationale": "The generic repairs description does not establish whether this is materials, utilities, or a service, and the supplied cafe COA has no explicit repairs account.",
+        "uncertainty": "Account requires additional repair details or the client accounting policy; confidence expresses confidence in abstention, not in any account."
+      }
+    }
+  ]
+}

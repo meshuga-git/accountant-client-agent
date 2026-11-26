@@ -1,0 +1,54 @@
+{
+  "method": "Two host-model visual reads, predictions produced before original truth snapshot was inspected. Original image was restored after brief accidental refresh using identical deterministic renderer and seed; this restoration is disclosed. Not SDK/provider integration; not statistically representative. No live cost/latency measured.",
+  "documents": [
+    {
+      "image": "normal.png",
+      "image_sha256": "63c6b700fbd0f7df06fa9835989aa05116293b858fbb7ac11b0efd6a9bc46255",
+      "document_id": "cafe-10-01",
+      "field_matches": {
+        "vendor": true,
+        "date": true,
+        "invoice_number": true,
+        "net": true,
+        "tax": true,
+        "total": true,
+        "currency": true
+      },
+      "correct": 7,
+      "total": 7,
+      "category": {
+        "predicted": "5100",
+        "expected_account_if_represented": "5100",
+        "result": "correct mapped account"
+      }
+    },
+    {
+      "image": "degraded.png",
+      "image_sha256": "fd2e6a88fe88c10a8e790c6dd72c4b56743102b47e4df864239056d089216548",
+      "document_id": "cafe-10-07",
+      "field_matches": {
+        "vendor": true,
+        "date": true,
+        "invoice_number": true,
+        "net": true,
+        "tax": true,
+        "total": true,
+        "currency": true
+      },
+      "correct": 7,
+      "total": 7,
+      "category": {
+        "predicted": null,
+        "expected_account_if_represented": null,
+        "result": "appropriate abstention; not counted as category accuracy success"
+      }
+    }
+  ],
+  "key_fields_correct": 14,
+  "key_fields_total": 14,
+  "category_scored_count": 1,
+  "category_correct_count": 1,
+  "category_abstentions": 1,
+  "grounding_note": "Raster source has no text layer; verbatim visual snippets are not machine-verified evidence and still require human review.",
+  "input_provenance": "normal cafe-10-01; degraded original cafe-10-07 Beacon Repair / Repairs monthly purchase; later corpus uses Beacon Advisory / Professional services and must NOT replace this truth."
+}

@@ -1,0 +1,58 @@
+{
+  "normal": {
+    "document_id": "cafe-10-01",
+    "fields": {
+      "id": "cafe-10-01",
+      "client_id": "cafe",
+      "direction": "expense",
+      "type": "invoice",
+      "vendor": "Pixel Systems",
+      "invoice_number": "110001",
+      "date": "2025-10-04",
+      "due_date": "2025-10-06",
+      "currency": "USD",
+      "net": "310.87",
+      "tax": "24.87",
+      "total": "335.74",
+      "tax_rate": "0.08",
+      "lines": [
+        {
+          "description": "Software monthly purchase",
+          "net": "310.87",
+          "tax": "24.87",
+          "total": "335.74"
+        }
+      ]
+    },
+    "account": "5100",
+    "category_note": "Software account available"
+  },
+  "degraded": {
+    "document_id": "cafe-10-07",
+    "fields": {
+      "id": "cafe-10-07",
+      "client_id": "cafe",
+      "direction": "expense",
+      "type": "invoice",
+      "vendor": "Beacon Repair",
+      "invoice_number": "110007",
+      "date": "2025-10-16",
+      "due_date": "2025-10-18",
+      "currency": "USD",
+      "net": "201.71",
+      "tax": "16.14",
+      "total": "217.85",
+      "tax_rate": "0.08",
+      "lines": [
+        {
+          "description": "Repairs monthly purchase",
+          "net": "201.71",
+          "tax": "16.14",
+          "total": "217.85"
+        }
+      ]
+    },
+    "account": null,
+    "category_note": "Original source repair is not represented by supplied COA; abstain appropriate."
+  }
+}
