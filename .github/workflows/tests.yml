@@ -1,0 +1,14 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  local:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.12'}
+      - run: pip install -e '.[test]'
+      - run: ruff check src/accounting_agent tests
+      - run: ruff format --check src/accounting_agent tests
+      - run: pytest -q
+      - run: ledgerline eval run --split heldout --out reports/ci
