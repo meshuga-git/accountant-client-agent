@@ -1,0 +1,1459 @@
+{
+  "schema_version": 1,
+  "dataset_seed": 42,
+  "split": "dev",
+  "backend": "offline",
+  "synthetic_only": true,
+  "documents_evaluated": 300,
+  "metrics": {
+    "extraction_per_field": {
+      "vendor": 0.91,
+      "date": 0.91,
+      "invoice_number": 0.91,
+      "net": 0.91,
+      "tax": 0.91,
+      "total": 0.91,
+      "currency": 0.91
+    },
+    "extraction_micro_accuracy": 0.91,
+    "degraded_extraction_per_field": {
+      "vendor": 0.0,
+      "date": 0.0,
+      "invoice_number": 0.0,
+      "net": 0.0,
+      "tax": 0.0,
+      "total": 0.0,
+      "currency": 0.0
+    },
+    "category_cold_accuracy": 0.0,
+    "category_warm_accuracy": 0.959596,
+    "category_count": 297,
+    "category_cold_abstentions": 297,
+    "auto_match_precision": 1.0,
+    "auto_match_recall_exact_eligible": 1.0,
+    "auto_matches": 258,
+    "exact_eligible_bank_lines": 258,
+    "bank_lines": 285,
+    "duplicate_recall": 1.0,
+    "duplicate_cases": 3,
+    "balanced_drafts": 294,
+    "unbalanced_drafts": 0,
+    "invalid_totals_rejected": 3,
+    "adversarial_mandatory_field_abstention": null,
+    "adversarial_cases": 0,
+    "cost_usd": "0",
+    "cost_per_document_usd": "0",
+    "total_tokens": 0,
+    "latency_seconds_mean": 0.02057,
+    "latency_seconds_p95": 0.0437
+  },
+  "failures": [
+    {
+      "id": "cafe-01-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-01-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-01-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-01-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "101007",
+      "actual": null
+    },
+    {
+      "id": "cafe-01-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "70.72",
+      "actual": null
+    },
+    {
+      "id": "cafe-01-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "5.66",
+      "actual": null
+    },
+    {
+      "id": "cafe-01-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "76.38",
+      "actual": null
+    },
+    {
+      "id": "cafe-01-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-02-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-02-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-02-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-02-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "102007",
+      "actual": null
+    },
+    {
+      "id": "cafe-02-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "289.05",
+      "actual": null
+    },
+    {
+      "id": "cafe-02-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "23.12",
+      "actual": null
+    },
+    {
+      "id": "cafe-02-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "312.17",
+      "actual": null
+    },
+    {
+      "id": "cafe-02-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-03-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-03-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-03-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-03-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "103007",
+      "actual": null
+    },
+    {
+      "id": "cafe-03-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "65.90",
+      "actual": null
+    },
+    {
+      "id": "cafe-03-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "5.27",
+      "actual": null
+    },
+    {
+      "id": "cafe-03-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "71.17",
+      "actual": null
+    },
+    {
+      "id": "cafe-03-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-04-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-04-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-04-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-04-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "104007",
+      "actual": null
+    },
+    {
+      "id": "cafe-04-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "233.30",
+      "actual": null
+    },
+    {
+      "id": "cafe-04-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "18.66",
+      "actual": null
+    },
+    {
+      "id": "cafe-04-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "251.96",
+      "actual": null
+    },
+    {
+      "id": "cafe-04-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-05-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-05-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-05-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-05-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "105007",
+      "actual": null
+    },
+    {
+      "id": "cafe-05-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "131.26",
+      "actual": null
+    },
+    {
+      "id": "cafe-05-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "10.50",
+      "actual": null
+    },
+    {
+      "id": "cafe-05-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "141.76",
+      "actual": null
+    },
+    {
+      "id": "cafe-05-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-06-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-06-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-06-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-06-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "106007",
+      "actual": null
+    },
+    {
+      "id": "cafe-06-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "70.75",
+      "actual": null
+    },
+    {
+      "id": "cafe-06-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "5.66",
+      "actual": null
+    },
+    {
+      "id": "cafe-06-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "76.41",
+      "actual": null
+    },
+    {
+      "id": "cafe-06-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-07-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-07-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-07-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-07-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "107007",
+      "actual": null
+    },
+    {
+      "id": "cafe-07-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "163.33",
+      "actual": null
+    },
+    {
+      "id": "cafe-07-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "13.07",
+      "actual": null
+    },
+    {
+      "id": "cafe-07-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "176.40",
+      "actual": null
+    },
+    {
+      "id": "cafe-07-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-08-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-08-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-08-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-08-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "108007",
+      "actual": null
+    },
+    {
+      "id": "cafe-08-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "343.46",
+      "actual": null
+    },
+    {
+      "id": "cafe-08-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "27.48",
+      "actual": null
+    },
+    {
+      "id": "cafe-08-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "370.94",
+      "actual": null
+    },
+    {
+      "id": "cafe-08-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "cafe-09-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "cafe-09-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-09-16",
+      "actual": null
+    },
+    {
+      "id": "cafe-09-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "109007",
+      "actual": null
+    },
+    {
+      "id": "cafe-09-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "103.46",
+      "actual": null
+    },
+    {
+      "id": "cafe-09-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "8.28",
+      "actual": null
+    },
+    {
+      "id": "cafe-09-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "111.74",
+      "actual": null
+    },
+    {
+      "id": "cafe-09-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-01-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-01-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-01-16",
+      "actual": null
+    },
+    {
+      "id": "designer-01-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "201007",
+      "actual": null
+    },
+    {
+      "id": "designer-01-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "85.12",
+      "actual": null
+    },
+    {
+      "id": "designer-01-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "6.81",
+      "actual": null
+    },
+    {
+      "id": "designer-01-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "91.93",
+      "actual": null
+    },
+    {
+      "id": "designer-01-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-02-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-02-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-02-16",
+      "actual": null
+    },
+    {
+      "id": "designer-02-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "202007",
+      "actual": null
+    },
+    {
+      "id": "designer-02-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "25.70",
+      "actual": null
+    },
+    {
+      "id": "designer-02-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "2.06",
+      "actual": null
+    },
+    {
+      "id": "designer-02-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "27.76",
+      "actual": null
+    },
+    {
+      "id": "designer-02-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-03-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-03-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-03-16",
+      "actual": null
+    },
+    {
+      "id": "designer-03-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "203007",
+      "actual": null
+    },
+    {
+      "id": "designer-03-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "199.03",
+      "actual": null
+    },
+    {
+      "id": "designer-03-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "15.92",
+      "actual": null
+    },
+    {
+      "id": "designer-03-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "214.95",
+      "actual": null
+    },
+    {
+      "id": "designer-03-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-04-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-04-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-04-16",
+      "actual": null
+    },
+    {
+      "id": "designer-04-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "204007",
+      "actual": null
+    },
+    {
+      "id": "designer-04-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "128.66",
+      "actual": null
+    },
+    {
+      "id": "designer-04-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "10.29",
+      "actual": null
+    },
+    {
+      "id": "designer-04-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "138.95",
+      "actual": null
+    },
+    {
+      "id": "designer-04-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-05-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-05-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-05-16",
+      "actual": null
+    },
+    {
+      "id": "designer-05-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "205007",
+      "actual": null
+    },
+    {
+      "id": "designer-05-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "111.90",
+      "actual": null
+    },
+    {
+      "id": "designer-05-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "8.95",
+      "actual": null
+    },
+    {
+      "id": "designer-05-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "120.85",
+      "actual": null
+    },
+    {
+      "id": "designer-05-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-06-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-06-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-06-16",
+      "actual": null
+    },
+    {
+      "id": "designer-06-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "206007",
+      "actual": null
+    },
+    {
+      "id": "designer-06-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "114.24",
+      "actual": null
+    },
+    {
+      "id": "designer-06-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "9.14",
+      "actual": null
+    },
+    {
+      "id": "designer-06-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "123.38",
+      "actual": null
+    },
+    {
+      "id": "designer-06-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-07-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-07-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-07-16",
+      "actual": null
+    },
+    {
+      "id": "designer-07-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "207007",
+      "actual": null
+    },
+    {
+      "id": "designer-07-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "110.83",
+      "actual": null
+    },
+    {
+      "id": "designer-07-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "8.87",
+      "actual": null
+    },
+    {
+      "id": "designer-07-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "119.70",
+      "actual": null
+    },
+    {
+      "id": "designer-07-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-08-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-08-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-08-16",
+      "actual": null
+    },
+    {
+      "id": "designer-08-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "208007",
+      "actual": null
+    },
+    {
+      "id": "designer-08-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "38.07",
+      "actual": null
+    },
+    {
+      "id": "designer-08-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "3.05",
+      "actual": null
+    },
+    {
+      "id": "designer-08-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "41.12",
+      "actual": null
+    },
+    {
+      "id": "designer-08-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "designer-09-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "designer-09-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-09-16",
+      "actual": null
+    },
+    {
+      "id": "designer-09-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "209007",
+      "actual": null
+    },
+    {
+      "id": "designer-09-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "244.51",
+      "actual": null
+    },
+    {
+      "id": "designer-09-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "19.56",
+      "actual": null
+    },
+    {
+      "id": "designer-09-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "264.07",
+      "actual": null
+    },
+    {
+      "id": "designer-09-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-01-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-01-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-01-16",
+      "actual": null
+    },
+    {
+      "id": "construction-01-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "301007",
+      "actual": null
+    },
+    {
+      "id": "construction-01-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "162.77",
+      "actual": null
+    },
+    {
+      "id": "construction-01-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "13.02",
+      "actual": null
+    },
+    {
+      "id": "construction-01-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "175.79",
+      "actual": null
+    },
+    {
+      "id": "construction-01-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-02-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-02-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-02-16",
+      "actual": null
+    },
+    {
+      "id": "construction-02-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "302007",
+      "actual": null
+    },
+    {
+      "id": "construction-02-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "339.51",
+      "actual": null
+    },
+    {
+      "id": "construction-02-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "27.16",
+      "actual": null
+    },
+    {
+      "id": "construction-02-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "366.67",
+      "actual": null
+    },
+    {
+      "id": "construction-02-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-03-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-03-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-03-16",
+      "actual": null
+    },
+    {
+      "id": "construction-03-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "303007",
+      "actual": null
+    },
+    {
+      "id": "construction-03-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "174.23",
+      "actual": null
+    },
+    {
+      "id": "construction-03-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "13.94",
+      "actual": null
+    },
+    {
+      "id": "construction-03-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "188.17",
+      "actual": null
+    },
+    {
+      "id": "construction-03-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-04-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-04-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-04-16",
+      "actual": null
+    },
+    {
+      "id": "construction-04-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "304007",
+      "actual": null
+    },
+    {
+      "id": "construction-04-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "41.45",
+      "actual": null
+    },
+    {
+      "id": "construction-04-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "3.32",
+      "actual": null
+    },
+    {
+      "id": "construction-04-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "44.77",
+      "actual": null
+    },
+    {
+      "id": "construction-04-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-05-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-05-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-05-16",
+      "actual": null
+    },
+    {
+      "id": "construction-05-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "305007",
+      "actual": null
+    },
+    {
+      "id": "construction-05-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "279.82",
+      "actual": null
+    },
+    {
+      "id": "construction-05-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "22.39",
+      "actual": null
+    },
+    {
+      "id": "construction-05-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "302.21",
+      "actual": null
+    },
+    {
+      "id": "construction-05-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-06-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-06-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-06-16",
+      "actual": null
+    },
+    {
+      "id": "construction-06-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "306007",
+      "actual": null
+    },
+    {
+      "id": "construction-06-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "46.04",
+      "actual": null
+    },
+    {
+      "id": "construction-06-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "3.68",
+      "actual": null
+    },
+    {
+      "id": "construction-06-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "49.72",
+      "actual": null
+    },
+    {
+      "id": "construction-06-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-07-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-07-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-07-16",
+      "actual": null
+    },
+    {
+      "id": "construction-07-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "307007",
+      "actual": null
+    },
+    {
+      "id": "construction-07-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "317.17",
+      "actual": null
+    },
+    {
+      "id": "construction-07-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "25.37",
+      "actual": null
+    },
+    {
+      "id": "construction-07-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "342.54",
+      "actual": null
+    },
+    {
+      "id": "construction-07-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-08-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-08-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-08-16",
+      "actual": null
+    },
+    {
+      "id": "construction-08-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "308007",
+      "actual": null
+    },
+    {
+      "id": "construction-08-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "33.83",
+      "actual": null
+    },
+    {
+      "id": "construction-08-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "2.71",
+      "actual": null
+    },
+    {
+      "id": "construction-08-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "36.54",
+      "actual": null
+    },
+    {
+      "id": "construction-08-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    },
+    {
+      "id": "construction-09-07",
+      "stage": "extraction",
+      "field": "vendor",
+      "expected": "Beacon Advisory",
+      "actual": null
+    },
+    {
+      "id": "construction-09-07",
+      "stage": "extraction",
+      "field": "date",
+      "expected": "2025-09-16",
+      "actual": null
+    },
+    {
+      "id": "construction-09-07",
+      "stage": "extraction",
+      "field": "invoice_number",
+      "expected": "309007",
+      "actual": null
+    },
+    {
+      "id": "construction-09-07",
+      "stage": "extraction",
+      "field": "net",
+      "expected": "271.41",
+      "actual": null
+    },
+    {
+      "id": "construction-09-07",
+      "stage": "extraction",
+      "field": "tax",
+      "expected": "21.71",
+      "actual": null
+    },
+    {
+      "id": "construction-09-07",
+      "stage": "extraction",
+      "field": "total",
+      "expected": "293.12",
+      "actual": null
+    },
+    {
+      "id": "construction-09-07",
+      "stage": "extraction",
+      "field": "currency",
+      "expected": "USD",
+      "actual": null
+    }
+  ],
+  "wrong_matches": [],
+  "limits": [
+    "Synthetic templated English corpus only; not a real-world accuracy claim.",
+    "Matching score weights were adjusted after observing this held-out split: these are reused development diagnostics, NOT untouched held-out validation. A fresh independent corpus is required.",
+    "Offline extraction reads PDF text layers. Raster receipts require configured vision provider and conservatively abstain offline.",
+    "Cold category and matching stage metrics use labeled normalized fields; they are not end-to-end OCR pipeline metrics.",
+    "Warm category history is simulated accountant-approved dev labels strictly earlier than the evaluated document; no held-out labels enter history.",
+    "Exact-eligible recall excludes compound, fee, partial and missing-document cases; these require reviewed settlement.",
+    "Duplicate metric uses labeled normalized fields, not degraded extraction outputs.",
+    "Offline provider cost is zero; live LLM cost and extraction target unverified without configured model run.",
+    "Rule branch tests are in the test suite; no corpus-wide A01-A12 sensitivity claim or manual time-saving claim.",
+    "Precision is undefined (null) if no auto matches; no result is silently converted into a pass."
+  ],
+  "rule_fixture_results": {
+    "A01": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A02": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A03": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A04": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A05": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A06": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A07": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A08": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A09": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A10": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A11": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    },
+    "A12": {
+      "positive_detected": true,
+      "negative_clear": true,
+      "pass": true
+    }
+  },
+  "targets": {
+    "extraction_97pct": false,
+    "category_cold_85pct": false,
+    "category_warm_93pct": true,
+    "match_precision_99pct": true,
+    "match_recall_85pct": true,
+    "duplicate_recall_95pct": true,
+    "zero_unbalanced": true
+  }
+}

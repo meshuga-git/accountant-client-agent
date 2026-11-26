@@ -1,0 +1,27 @@
+{
+  "timestamp": "2026-10-23T13:49:09.759959+00:00",
+  "dataset": "synthetic generated financial values, not document OCR",
+  "backend": "SQLite local fallback (not PostgreSQL RLS)",
+  "clients": 5,
+  "draft_documents": 200,
+  "reviewed_corrected_approved": 25,
+  "mock_exports": 25,
+  "idempotent_export_retries": 25,
+  "balanced_draft_checks": 200,
+  "cross_client_read_attempts_rejected": 20,
+  "cross_client_leaks_observed": 0,
+  "duplicate_allocation_race": {
+    "contenders": 2,
+    "approved": 1,
+    "rejected": 1
+  },
+  "ingest_seconds": 0.415,
+  "total_seconds": 0.63,
+  "scope_limits": [
+    "Single local machine; not production scalability",
+    "No LLM/provider requests, retries, cost caps or OCR in this test",
+    "SQLite isolation predicates are not PostgreSQL RLS",
+    "Reviewer confirmations simulated by test code; no measured human time-saving claim"
+  ],
+  "result": "passed"
+}

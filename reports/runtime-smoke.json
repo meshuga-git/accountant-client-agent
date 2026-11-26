@@ -1,0 +1,32 @@
+{
+  "api_health": {
+    "status": "ok",
+    "synthetic_only": true,
+    "database": "sqlite_local_not_rls",
+    "posting": "disabled"
+  },
+  "streamlit_health": "ok",
+  "app_test_exceptions": 0,
+  "titles": [
+    "A clearer month-end.",
+    "\u25eb Ledgerline"
+  ],
+  "metrics": [
+    [
+      "Documents",
+      "11"
+    ],
+    [
+      "Need attention",
+      "11"
+    ],
+    [
+      "Approved",
+      "0"
+    ],
+    [
+      "Mock exported",
+      "0"
+    ]
+  ]
+}
