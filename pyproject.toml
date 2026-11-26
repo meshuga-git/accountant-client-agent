@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ledgerline-accounting-agent"
+version = "0.1.0"
+description = "Synthetic-only, review-first multi-client accounting workbench"
+requires-python = ">=3.11"
+dependencies = ["fastapi>=0.115,<1", "uvicorn>=0.30,<1", "pydantic>=2.8,<3", "streamlit>=1.40,<2", "httpx>=0.27,<1", "python-multipart>=0.0.18", "pymupdf>=1.24,<2", "Pillow>=10,<13", "rapidfuzz>=3,<4", "defusedxml>=0.7,<1", "reportlab>=4,<5", "psycopg[binary]>=3.2,<4"]
+[project.optional-dependencies]
+test = ["pytest>=8,<10", "ruff==0.17.2"]
+[project.scripts]
+ledgerline = "accounting_agent.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I"]

@@ -1,0 +1,11 @@
+{
+  "version": "freight-docpipe-snapshot-2026-10-23",
+  "source": "../freight-agent/src/docpipe",
+  "modifications": "None; accounting adapter imports rendering pipeline and grounding helper",
+  "files": {
+    "normalize.py": "d9646d58e97d0a762bb850727074801d2752a4898ee6547b495c93dc8c806792",
+    "pipeline.py": "5212c86ffafa207f44edc84f4c2cf792f2ab21348ea97a7b668997f41d7b0871",
+    "normalization.py": "486fca8d6712900bc8086adf9323f92b086c81173dd3bbaee52ac3c346e67eb6",
+    "__init__.py": "0b93f62871d357263572ed3cd165ec4f78530072d6c28e6f2769c9ad872812a3"
+  }
+}

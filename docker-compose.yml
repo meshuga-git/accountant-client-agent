@@ -1,0 +1,33 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_USER: ledgerline_owner
+      POSTGRES_PASSWORD: synthetic-owner-only
+      POSTGRES_DB: ledgerline
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./migrations/001_rls.sql:/docker-entrypoint-initdb.d/001_rls.sql:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ledgerline_owner -d ledgerline"]
+      interval: 3s
+      retries: 20
+  api:
+    build: .
+    ports: ["127.0.0.1:8000:8000"]
+    environment:
+      DATABASE_URL: postgresql://ledgerline_app:synthetic-local-only@postgres:5432/ledgerline
+      LEDGERLINE_STORAGE: /app/data/uploads
+      ACCOUNTING_BUDGET_DB: /app/data/provider-budget.sqlite
+    volumes: ["appdata:/app/data"]
+    depends_on:
+      postgres: {condition: service_healthy}
+  ui:
+    build: .
+    command: ["streamlit", "run", "src/accounting_agent/ui.py", "--server.address", "0.0.0.0", "--server.port", "8501"]
+    ports: ["127.0.0.1:8501:8501"]
+    environment: {LEDGERLINE_API: "http://api:8000"}
+    depends_on: [api]
+volumes:
+  pgdata:
+  appdata:
