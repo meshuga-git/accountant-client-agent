@@ -1,0 +1,3798 @@
+{
+  "schema_version": 1,
+  "seed": 42,
+  "synthetic_only": true,
+  "jurisdiction_warning": "Illustrative 8% tax is NOT jurisdictional tax guidance.",
+  "clients": [
+    {
+      "id": "cafe",
+      "name": "Juniper Synthetic Cafe",
+      "jurisdiction": "US-NY",
+      "currency": "USD"
+    },
+    {
+      "id": "designer",
+      "name": "Prism Synthetic Design",
+      "jurisdiction": "US-NY",
+      "currency": "USD"
+    },
+    {
+      "id": "construction",
+      "name": "Oak Synthetic Construction",
+      "jurisdiction": "US-NY",
+      "currency": "USD"
+    }
+  ],
+  "chart_of_accounts": [
+    {
+      "code": "1000",
+      "name": "Cash",
+      "type": "asset"
+    },
+    {
+      "code": "1200",
+      "name": "Receivables",
+      "type": "asset"
+    },
+    {
+      "code": "2100",
+      "name": "Payables",
+      "type": "liability"
+    },
+    {
+      "code": "2200",
+      "name": "Sales tax payable",
+      "type": "liability"
+    },
+    {
+      "code": "4000",
+      "name": "Sales revenue",
+      "type": "income"
+    },
+    {
+      "code": "5000",
+      "name": "Materials and supplies",
+      "type": "expense"
+    },
+    {
+      "code": "5100",
+      "name": "Software subscriptions",
+      "type": "expense"
+    },
+    {
+      "code": "5200",
+      "name": "Rent and utilities",
+      "type": "expense"
+    },
+    {
+      "code": "5300",
+      "name": "Professional services",
+      "type": "expense"
+    },
+    {
+      "code": "5400",
+      "name": "Travel and transport",
+      "type": "expense"
+    },
+    {
+      "code": "5500",
+      "name": "Bank fees and rounding",
+      "type": "expense"
+    },
+    {
+      "code": "5600",
+      "name": "Meals and food supplies",
+      "type": "expense"
+    }
+  ],
+  "documents": [
+    {
+      "id": "cafe-01-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-00.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-01.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-02.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-03.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-04.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-05.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-06.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-07.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-08.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-09.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-01-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-01-10.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-00.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-01.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-02.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-03.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-04.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-05.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-06.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-07.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-08.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-09.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-02-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-02-10.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-00.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-01.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-02.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-03.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-04.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-05.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-06.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-07.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-08.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-09.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-10.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-03-00-duplicate",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-03-00-duplicate.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-00.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-01.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-02.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-03.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-04.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-05.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-06.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-07.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-08.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-09.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-04-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-04-10.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-00.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-01.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-02.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-03.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-04.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-05.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-06.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-07.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-08.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-09.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-05-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-05-10.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-00.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-01.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-02.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-03.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-04.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-05.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-06.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-07.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-08.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-09.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-06-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-06-10.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-00.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-01.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-02.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-03.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-04.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-05.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-06.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-07.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-08.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-09.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-07-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-07-10.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-00.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-01.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-02.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-03.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-04.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-05.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-06.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-07.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-08.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-09.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-08-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-08-10.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-00.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-01.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-02.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-03.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-04.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-05.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-06.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-07.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-08.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-09.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-09-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-09-10.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-00.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-01.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-02.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-03.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-04.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-05.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-06.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-07.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-08.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-09.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-10.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-10-00-duplicate",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-10-00-duplicate.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-00.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-01.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-02.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-03.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-04.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-05.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-06.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-07.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-08.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-09.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-11-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-11-10.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-00.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-01",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-01.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-02",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-02.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-03.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-04",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-04.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-05",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-05.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-06.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-07",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-07.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-08",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-08.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-09.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "cafe-12-10",
+      "client_id": "cafe",
+      "path": "documents/cafe/cafe-12-10.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-00.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-01.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-02.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-03.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-04.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-05.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-06.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-07.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-08.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-09.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-01-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-01-10.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-00.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-01.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-02.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-03.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-04.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-05.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-06.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-07.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-08.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-09.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-02-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-02-10.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-00.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-01.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-02.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-03.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-04.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-05.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-06.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-07.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-08.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-09.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-10.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-03-00-duplicate",
+      "client_id": "designer",
+      "path": "documents/designer/designer-03-00-duplicate.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-00.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-01.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-02.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-03.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-04.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-05.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-06.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-07.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-08.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-09.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-04-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-04-10.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-00.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-01.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-02.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-03.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-04.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-05.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-06.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-07.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-08.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-09.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-05-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-05-10.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-00.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-01.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-02.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-03.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-04.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-05.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-06.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-07.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-08.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-09.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-06-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-06-10.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-00.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-01.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-02.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-03.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-04.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-05.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-06.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-07.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-08.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-09.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-07-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-07-10.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-00.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-01.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-02.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-03.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-04.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-05.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-06.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-07.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-08.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-09.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-08-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-08-10.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-00.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-01.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-02.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-03.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-04.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-05.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-06.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-07.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-08.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-09.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-09-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-09-10.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-00.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-01.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-02.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-03.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-04.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-05.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-06.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-07.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-08.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-09.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-10.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-10-00-duplicate",
+      "client_id": "designer",
+      "path": "documents/designer/designer-10-00-duplicate.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-00.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-01.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-02.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-03.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-04.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-05.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-06.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-07.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-08.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-09.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-11-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-11-10.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-00",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-00.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-01",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-01.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-02",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-02.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-03",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-03.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-04",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-04.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-05",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-05.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-06",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-06.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-07",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-07.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-08",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-08.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-09",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-09.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "designer-12-10",
+      "client_id": "designer",
+      "path": "documents/designer/designer-12-10.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-00.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-01.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-02.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-03.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-04.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-05.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-06.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-07.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-08.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-09.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-01-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-01-10.pdf",
+      "month": 1,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-00.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-01.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-02.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-03.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-04.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-05.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-06.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-07.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-08.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-09.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-02-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-02-10.pdf",
+      "month": 2,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-00.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-01.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-02.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-03.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-04.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-05.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-06.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-07.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-08.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-09.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-10.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-03-00-duplicate",
+      "client_id": "construction",
+      "path": "documents/construction/construction-03-00-duplicate.pdf",
+      "month": 3,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-00.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-01.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-02.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-03.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-04.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-05.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-06.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-07.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-08.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-09.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-04-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-04-10.pdf",
+      "month": 4,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-00.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-01.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-02.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-03.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-04.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-05.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-06.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-07.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-08.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-09.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-05-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-05-10.pdf",
+      "month": 5,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-00.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-01.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-02.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-03.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-04.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-05.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-06.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-07.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-08.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-09.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-06-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-06-10.pdf",
+      "month": 6,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-00.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-01.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-02.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-03.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-04.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-05.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-06.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-07.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-08.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-09.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-07-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-07-10.pdf",
+      "month": 7,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-00.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-01.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-02.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-03.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-04.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-05.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-06.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-07.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-08.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-09.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-08-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-08-10.pdf",
+      "month": 8,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-00.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-01.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-02.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-03.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-04.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-05.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-06.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-07.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-08.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-09.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-09-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-09-10.pdf",
+      "month": 9,
+      "split": "dev",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-00.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-01.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-02.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-03.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-04.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-05.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-06.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-07.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-08.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-09.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-10.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-10-00-duplicate",
+      "client_id": "construction",
+      "path": "documents/construction/construction-10-00-duplicate.pdf",
+      "month": 10,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-00.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-01.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-02.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-03.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-04.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-05.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-06.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-07.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-08.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-09.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-11-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-11-10.pdf",
+      "month": 11,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-00",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-00.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-01",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-01.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-02",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-02.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-03",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-03.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-04",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-04.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-05",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-05.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-06",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-06.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-07",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-07.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": true,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-08",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-08.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-09",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-09.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "construction-12-10",
+      "client_id": "construction",
+      "path": "documents/construction/construction-12-10.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": false
+    },
+    {
+      "id": "adversarial-00",
+      "client_id": "cafe",
+      "path": "documents/cafe/adversarial-00.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-01",
+      "client_id": "designer",
+      "path": "documents/designer/adversarial-01.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-02",
+      "client_id": "construction",
+      "path": "documents/construction/adversarial-02.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-03",
+      "client_id": "cafe",
+      "path": "documents/cafe/adversarial-03.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-04",
+      "client_id": "designer",
+      "path": "documents/designer/adversarial-04.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-05",
+      "client_id": "construction",
+      "path": "documents/construction/adversarial-05.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-06",
+      "client_id": "cafe",
+      "path": "documents/cafe/adversarial-06.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-07",
+      "client_id": "designer",
+      "path": "documents/designer/adversarial-07.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-08",
+      "client_id": "construction",
+      "path": "documents/construction/adversarial-08.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    },
+    {
+      "id": "adversarial-09",
+      "client_id": "cafe",
+      "path": "documents/cafe/adversarial-09.pdf",
+      "month": 12,
+      "split": "heldout",
+      "degraded": false,
+      "adversarial": true
+    }
+  ]
+}
